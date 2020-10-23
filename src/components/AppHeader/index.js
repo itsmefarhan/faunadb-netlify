@@ -19,20 +19,14 @@ const AppHeader = (props) => {
             </div>
           </div>
         </div>
-        <div className='deploy-button-wrapper'>
-          <a
-            target='_blank'
-            rel='noopener noreferrer'
-            href='https://app.netlify.com/start/deploy?repository=https://github.com/netlify/netlify-faunadb-example&stack=fauna'>
-            <img src={deployButton} className='deploy-button' alt='deploy to netlify' />
-          </a>
+        <div className='deploy-button-wrapper'>          
           <div className='view-src'>
             <a
               target='_blank'
               rel='noopener noreferrer'
-              href='https://github.com/netlify/netlify-faunadb-example'>
+              href='https://github.com/itsmefarhan/faunadb-netlify'>
               <img className='github-icon' src={github} alt='view repo on github' />
-              View the source Luke
+              View source code
             </a>
           </div>
         </div>
